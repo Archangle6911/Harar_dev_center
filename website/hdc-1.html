@@ -5,7 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Harar Dev Center</title>
   <link rel="stylesheet" href="hdc-1.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"> 
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+  integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body>
   <header>
@@ -15,18 +19,18 @@
         <span>HARAR DEV CENTER</span>
       </div>
       <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Courses</a></li>
-        <li><a href="#">Our Team</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#ourteam">Our Team</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="hero">
+  <section class="hero" id="home">
     <div class="hero-content">
-      <h1>Empowering Harar’s Next<br>Generation of Innovators🚀</h1>
+      <h1>Empowering Harar’s Next<br>Generation of Innovators</h1>
       <p>
         Harar Dev Center is the first community-driven learning hub in Harar,
         dedicated to technology, creativity, and innovation. We run hands-on
@@ -38,7 +42,7 @@
       </div>
     </div>
   </section>
-  <!-- About Section -->
+  
 <section class="about" id="about">
   <div class="about-container">
     <h2 class="section-title">Who We Are</h2>
@@ -48,7 +52,7 @@
       provides access to digital skills, mentorship, and innovation opportunities for students, 
       graduates, and young professionals in Harar.
     </p>
-
+<!-- about section-->
     <div class="about-columns">
       <div class="column">
         <h3>Our Mission</h3>
@@ -67,12 +71,12 @@
     </div>
   </div>
 </section> 
-
-  <section class="course-section">
+<!-- course section-->
+  <section class="course-section" id="courses">
     <h1 class="course-title">Course</h1>
 
     <div class="course-grid">
-      <!-- Web Development -->
+      <!-- Web Dev-->
       <div class="course-card flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
@@ -95,7 +99,7 @@
         </div>
       </div>
 
-      <!-- Cyber Security -->
+      <!-- Cyber Security-->
       <div class="course-card flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
@@ -108,7 +112,7 @@
           </div>
           <div class="flip-card-back">
             <video autoplay muted loop>
-              <source src="https://cdn.pixabay.com/video/2022/03/25/112367-697820783_large.mp4" type="video/mp4" />
+              <source src="videos/cyber-security.mp4" type="video/mp4" />
             </video>
             <div class="video-overlay">
               <h3>Secure the Web</h3>
@@ -118,7 +122,7 @@
         </div>
       </div>
 
-      <!-- AI -->
+      <!-- AI-->
       <div class="course-card flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
@@ -131,7 +135,7 @@
           </div>
           <div class="flip-card-back">
             <video autoplay muted loop>
-              <source src="https://cdn.pixabay.com/video/2023/02/01/149665-793991736_large.mp4" type="video/mp4" />
+              <source src="videos/AI.mp4" type="video/mp4" />
             </video>
             <div class="video-overlay">
               <h3>AI in Action</h3>
@@ -141,11 +145,11 @@
         </div>
       </div>
 
-      <!-- Leadership -->
+      <!-- Leadership-->
       <div class="course-card flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
-            <img src="https://cdn.pixabay.com/photo/2016/11/29/10/07/board-1868728_1280.jpg" alt="Leadership" />
+            <img src="images/entrepreneurship.webp" alt="Leadership" />
             <div class="course-info">
               <h3>Leadership & Entrepreneurship 🚀</h3>
               <p>Training on project management, teamwork, and startup development.</p>
@@ -154,7 +158,7 @@
           </div>
           <div class="flip-card-back">
             <video autoplay muted loop>
-              <source src="https://cdn.pixabay.com/video/2020/05/04/38909-410116788_large.mp4" type="video/mp4" />
+              <source src="videos/leadership.mp4" type="video/mp4" />
             </video>
             <div class="video-overlay">
               <h3>Leadership Vision</h3>
@@ -166,17 +170,16 @@
     </div>
   </section>
 
-  <!-- Meet the Team Section -->
-<section class="team-section">
+  <!-- Team Section -->
+<section class="team-section" id="ourteam">
   <h2 class="section-title">Meet the Team</h2>
 
   <div class="team-container">
-    <!-- Member 1 -->
     <div class="team-card">
       <div class="team-icon">👤</div>
       <h3>ZIKRA ABDUSEMED</h3>
       <p class="role">President</p>
-      <p class="bio">Experience and blah blah blah blah blah blah blah blah blah blah blah.</p>
+      <p class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quod blanditiis dolorem fuga qui perferendis odit architecto autem obcaecati nemo iste ullam libero molestiae deserunt eum totam laudantium, porro tenetur!.</p>
       <div class="team-socials">
         <a href="#"><i class="fa-solid fa-envelope"></i></a>
         <a href="#"><i class="fa-brands fa-linkedin"></i></a>
@@ -184,12 +187,11 @@
       </div>
     </div>
 
-    <!-- Member 2 -->
     <div class="team-card">
       <div class="team-icon">👤</div>
       <h3>MAHI ZEKI</h3>
       <p class="role">Vice President</p>
-      <p class="bio">Experience and blah blah blah blah blah blah blah blah blah blah blah.</p>
+      <p class="bio">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, doloremque! Quia distinctio deleniti sunt natus voluptatum alias magni totam ratione iste. Deleniti delectus exercitationem iusto animi voluptas nisi aut optio?.</p>
       <div class="team-socials">
         <a href="#"><i class="fa-solid fa-envelope"></i></a>
         <a href="#"><i class="fa-brands fa-linkedin"></i></a>
@@ -197,12 +199,11 @@
       </div>
     </div>
 
-    <!-- Member 3 -->
     <div class="team-card">
       <div class="team-icon">👤</div>
       <h3>ALI MUNIR</h3>
       <p class="role">Finance & Treasure</p>
-      <p class="bio">Experience and blah blah blah blah blah blah blah blah blah blah blah.</p>
+      <p class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ratione ab aspernatur explicabo minus facere quis! Suscipit nostrum sit eligendi commodi libero. Aut, veniam! Expedita corporis nostrum unde? Veniam, asperiores?</p>
       <div class="team-socials">
         <a href="#"><i class="fa-solid fa-envelope"></i></a>
         <a href="#"><i class="fa-brands fa-linkedin"></i></a>
@@ -210,12 +211,11 @@
       </div>
     </div>
 
-    <!-- Member 4 -->
     <div class="team-card">
       <div class="team-icon">👤</div>
       <h3>MAHBUB MOHAMMED</h3>
       <p class="role">management Team</p>
-      <p class="bio">Experience and blah blah blah blah blah blah blah blah blah blah blah.</p>
+      <p class="bio">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium distinctio laboriosam animi accusamus reiciendis corporis maiores officia nesciunt. Dolor impedit cumque laborum consectetur nemo pariatur suscipit sapiente voluptatem nam velit.</p>
       <div class="team-socials">
         <a href="#"><i class="fa-solid fa-envelope"></i></a>
         <a href="#"><i class="fa-brands fa-linkedin"></i></a>
@@ -226,7 +226,7 @@
 </section>
 
 <!-- Contact Section -->
-<footer class="contact-section">
+<footer class="contact-section" id="contact">
   <div class="contact-container">
     <div class="contact-info">
       <h2>Contact Us</h2>
@@ -240,14 +240,15 @@
       <p><i class="fa-brands fa-tiktok"></i> @harar.dev.center</p>
       <p><i class="fa-brands fa-instagram"></i> @harardevcenter</p>
       <p><i class="fa-brands fa-youtube"></i> @harar_dev_center</p>
-      <p><i class="fa-brands fa-x-twitter"></i> @harar_dev_center</p>
+      <p><i class="fa-brands fa-facebook"></i> @harar_dev_center</p>
     </div>
   </div>
 </footer>
 
+
+
 <!-- Font Awesome Icons -->
 <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-
+<script src="hdc-1.js"></script>
 </body>
 </html>
-
